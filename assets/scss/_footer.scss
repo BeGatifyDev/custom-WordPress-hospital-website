@@ -1,0 +1,71 @@
+/* -------------------------
+   FOOTER (SCSS)
+------------------------- */
+
+// Local variables (kept here for now)
+$primary-dark: #003366;
+$primary-light: #0059b3;
+$accent: #ff6600;
+$text-light: #e6e6e6;
+$text-muted: #ccc;
+$link-hover: #ffcc66;
+
+.site-footer {
+  background: linear-gradient(135deg, $primary-dark 0%, $primary-light 100%);
+  color: #fff;
+  padding: 25px 15px;
+  text-align: center;
+  border-top: 4px solid $accent;
+
+  h4 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
+
+  p, 
+  a {
+    font-size: 0.9rem;
+    color: $text-light;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+
+  .footer-contact {
+    margin-bottom: 10px;
+
+    p {
+      margin: 5px 0;
+    }
+  }
+
+  .footer-social {
+    margin-top: 10px;
+
+    a {
+      display: inline-block;
+      margin: 0 6px;
+      font-size: 1.2rem;
+      color: #fff;
+      transition: transform 0.25s ease, color 0.25s ease;
+
+      &:hover {
+        color: $link-hover;
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  .footer-bottom {
+    margin-top: 12px;
+    font-size: 0.8rem;
+    color: $text-muted;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 8px;
+  }
+}

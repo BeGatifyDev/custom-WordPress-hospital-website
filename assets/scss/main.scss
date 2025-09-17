@@ -1,0 +1,19 @@
+/* -------------------------
+   Main SCSS Import File
+------------------------- */
+
+// Variables
+@import 'variables';
+
+// Global Styles
+@import 'global';
+
+// Sections
+@import 'header';
+@import 'hero';
+@import 'services';
+@import 'about';
+@import 'specialists';
+@import 'testimonials';
+@import 'news';
+@import 'footer';   

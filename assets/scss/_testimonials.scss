@@ -1,0 +1,82 @@
+.testimonials {
+  padding: $section-padding;
+  text-align: center;
+  background: #f3f6fb;
+
+  h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #003366;
+    margin-bottom: 1.5rem;
+  }
+
+  .testimonial-slider {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+
+    /* Hide ugly scrollbar */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .testimonial {
+    background: #fff;
+    padding: 25px;
+    border-radius: $border-radius;
+    min-width: 300px;
+    max-width: 350px;
+    scroll-snap-align: start;
+    box-shadow: $card-shadow;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    &.active {
+      border: 2px solid $primary-color;
+    }
+
+    .testimonial-img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      border: 3px solid $primary-color;
+    }
+
+    h3 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+      color: $primary-color;
+    }
+
+    .role {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #777;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.6;
+      font-style: italic;
+    }
+  }
+}
