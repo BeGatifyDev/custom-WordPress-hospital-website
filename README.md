@@ -7,12 +7,7 @@ A fully coded, custom WordPress hospital website built voluntarily. Optimized fo
 - Fully coded custom WordPress theme
 - Responsive design for all devices
 - Fast loading and performance optimized
-- Appointment booking system
-- Service and department management
-- Blog and news section
-- Contact form integration
-- SEO-friendly structure
-- Volunteer project showcasing web development skills
+
 
 ## Technologies Used
 
@@ -27,4 +22,4 @@ A fully coded, custom WordPress hospital website built voluntarily. Optimized fo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/hospital-website.git
+   git clone https://github.com/BeGatify/hospital-website.git
