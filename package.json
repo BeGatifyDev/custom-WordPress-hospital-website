@@ -1,0 +1,19 @@
+{
+  "name": "snh-hospital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "build": "sass assets/scss/main.scss assets/css/main.css --style=compressed",
+  "watch": "sass assets/scss/main.scss assets/css/main.css --watch"
+},
+
+
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.92.1"
+  }
+}

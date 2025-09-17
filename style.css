@@ -1,0 +1,55 @@
+/*
+Theme Name: Saint Nicholas Hospital
+Theme URI: https://snhospital.com
+Author: OLUWAFEMI OLUWATOBI BEST 
+Description: Professional hospital website theme with animations, sliders, and custom design.
+Version: 1.0.1
+License: GNU General Public License v2 or later
+Text Domain: snh-hospital
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif; /* body font */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333; /* fallback for $text-color */
+  background: #fff;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Slab', serif; /* headings font */
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #003366; /* fallback for $primary-color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px; /* fallback for $border-radius */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #002244; /* darker shade for hover */
+}
